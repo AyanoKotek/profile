@@ -1,0 +1,71 @@
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Shantell Sans', cursive; */
+
+body {
+  background-color: #F1DEDE;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #80727B;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Shantell Sans', cursive;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  /* background-color: grey; */
+  font-family: 'Shantell Sans', cursive;
+  line-height: 5px;
+  /* padding: 10px; */
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+  padding: 30px;
+  width:300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #457b9d;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+}
+
+.btn-blue:hover {
+  background-color:black;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  background-color:white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+}
+
+.list-inline > li :hover {
+  color: black;
+}
