@@ -25,7 +25,7 @@ a {
 }
 
 .container {
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 
@@ -33,8 +33,8 @@ a {
   background-color: white;
   border-radius: 5px;
   box-shadow: 2px 2px 8px rgba(0,0,0,.1);
-  padding: 30px;
-  width:300px;
+  padding: 10px;
+  width:80%;
   margin: 20px auto;
   text-align: center;
 }
@@ -95,6 +95,6 @@ a {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 200px;
+    width: 300px;
   }
 }
