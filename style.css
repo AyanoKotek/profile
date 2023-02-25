@@ -45,9 +45,10 @@ a {
 .btn-blue {
   color: white;
   background-color: #457b9d;
-  padding: 10px 20px;
+  padding: 20px;
   margin: 20px;
   border-radius: 5px;
+  display: inline-block;
 
 }
 
@@ -64,9 +65,14 @@ a {
 .list-inline {
   list-style: none;
   padding-left: 0px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .list-inline > li :hover {
   color: black;
+}
+
+.card-info {
+  width: 80%;
+  margin: 0 auto;
 }
