@@ -7,6 +7,7 @@ body {
   color: #80727B;
   font-size: 16px;
   line-height: 1.6;
+  overflow-x: hidden!important;
 }
 
 h1, h2, h3 {
